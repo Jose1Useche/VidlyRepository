@@ -24,7 +24,6 @@ namespace Vidly.Controllers
             _context.Dispose();
         }
 
-        //Nueva etiqueta
         // GET: Customer
         public ActionResult Index()
         {
