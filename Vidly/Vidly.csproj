@@ -186,6 +186,10 @@
     <Compile Include="Migrations\201909221539516_ChangingTypeOfBirthdayPropertyInCustomersTable1.Designer.cs">
       <DependentUpon>201909221539516_ChangingTypeOfBirthdayPropertyInCustomersTable1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201909300223211_AddNamePropertyFromCustomerTableHasRequired.cs" />
+    <Compile Include="Migrations\201909300223211_AddNamePropertyFromCustomerTableHasRequired.Designer.cs">
+      <DependentUpon>201909300223211_AddNamePropertyFromCustomerTableHasRequired.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\Genre.cs" />
@@ -300,6 +304,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201909221539516_ChangingTypeOfBirthdayPropertyInCustomersTable1.resx">
       <DependentUpon>201909221539516_ChangingTypeOfBirthdayPropertyInCustomersTable1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201909300223211_AddNamePropertyFromCustomerTableHasRequired.resx">
+      <DependentUpon>201909300223211_AddNamePropertyFromCustomerTableHasRequired.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

@@ -16,10 +16,10 @@ namespace Vidly.DataContext
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Customer>()
-                .Property(t => t.Name)
-                .IsRequired()
-                .HasMaxLength(255);
+            //modelBuilder.Entity<Customer>()
+                //.Property(t => t.Name)
+                //.IsRequired()
+                //.HasMaxLength(255);
 
             modelBuilder.Entity<MembershipType>()
                 .Property(t => t.Name)
